@@ -3,7 +3,7 @@ This repository contains code for integrating with the OpenAI ChatGPT API. This 
 ## Getting Started
 To use this code, you'll need to have an OpenAI API key. If you don't already have one, you can create an account and generate a key on the [OpenAI platform](https://beta.openai.com/signup/).
 Once you have your API key, you'll need to set it as an environment variable in the working directory of the applications. To do this, run the following command, replacing "put_api_key_here" with your actual API key:
-export OPENAI_API_KEY=put_api_key_here
+`export OPENAI_API_KEY=put_api_key_here`
 ## Usage
 This repository contains two examples of how to use the OpenAI ChatGPT API with Python and Terraform.
 ### Python Automation
