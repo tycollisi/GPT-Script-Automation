@@ -8,6 +8,7 @@ export OPENAI_API_KEY=put_api_key_here
 This repository contains two examples of how to use the OpenAI ChatGPT API with Python and Terraform.
 ### Python Automation
 To use the Python automation script, run the following command in your terminal, replacing "print hello world" with your own prompt and "hello-world.py" with the desired output file:
+```bash
 python3 python-chatgpt.py "print hello world" "hello-world.py"
 This will generate text based on your prompt and write the output to the specified file.
 ### Terraform Automation
