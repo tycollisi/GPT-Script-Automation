@@ -1,0 +1,22 @@
+We need the following in the POST request:
+1. URL = The API endpoint we want to send this request to
+2. Header = Metadata of the request
+3. Body = Json data we want to send in the body of the request
+
+Metadata of a HTTP request:
+Authorization = To provide credentials/token when sending a request to a protected source/endpoint
+
+open() = Built-in function that opens a file and returns it, for example:
+open("output.py", "w")
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist.
+"a" - Append - Opens a file for appending, creates the file if it does not exist.
+"w" - Write - Opens a file for writing, creates the file if it does not exist.
+"x" - Create - Creates the specified file, returns an error if the file exist.
+
+Create environment variable in same terminal session before executing script:
+1. Run the following command in the terminal:
+   export OPENAI_API_KEY=put_api_key_here
+2. import os 
+3. Add the following variable to your code:
+   api_key = os.getenv("OPENAI_API_KEY")
+Be sure your API key is not visible anywhere else in your code and tadaa! Your API key is no longer hard-coded.
